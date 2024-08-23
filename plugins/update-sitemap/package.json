@@ -1,0 +1,10 @@
+{
+  "name": "update-sitemap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A plugin to update the sitemap after build",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
