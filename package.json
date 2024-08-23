@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "gulp",
+        "tailwind:css": "npx tailwindcss -i ./input.css -o ./tailwind.css --watch"
+    },
+    "devDependencies": {
+        "gulp": "^5.0.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-uglify": "^3.0.2",
+        "tailwindcss": "^3.4.3"
+    }
+}

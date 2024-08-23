@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllLocks Locksmith | About Us</title>
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Learn more about AllLocks Locksmith, our values, and our team. We provide top-notch locksmith services.">
+    <meta name="keywords" content="locksmith, LaSalle, about us, locksmith services">
+    <meta name="author" content="Zachery A.">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="AllLocks Locksmith - About Us">
+    <meta property="og:description" content="Learn more about AllLocks Locksmith, our values, and our team. We provide top-notch locksmith services.">
+    <meta property="og:image" content="https://alllocks-locksmith.netlify.app/public/assets/lock-icon.webp">
+    <meta property="og:url" content="https://alllocks-locksmith.netlify.app/about.html">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:title" content="AllLocks Locksmith - About Us">
+    <meta name="twitter:description" content="Learn more about AllLocks Locksmith, our values, and our team. We provide top-notch locksmith services.">
+    <meta name="twitter:image" content="https://alllocks-locksmith.netlify.app/public/assets/lock-icon.webp">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://alllocks-locksmith.netlify.app/about.html">
+
+    <!-- CSS Libraries -->
+    <link href="./tailwind.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="public/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="public/assets/favicon/site.webmanifest">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('nav-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            toggleButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('h-0');
+                mobileMenu.classList.toggle('h-72');
+            });
+        });
+    </script>
+</head>
+
+<body class="font-sans antialiased text-zinc-800 bg-white">
+    <header class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img class="block h-8 w-auto" src="public/assets/lock-icon.webp" alt="All Locks">
+                    </div>
+                    <div class="hidden sm:ml-4 sm:flex sm:space-x-4">
+                        <a href="home.html" class="border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Home</a>
+                        <a href="residential.html" class="border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Residential</a>
+                        <a href="commercial.html" class="border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Commercial</a>
+                        <a href="automotive.html" class="border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Automotive</a>
+                        <a href="emergency.html" class="border-transparent text-zinc-500 hover:border-zinc-300 hover:text-zinc-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Emergency</a>
+                        <a href="about.html" class="border-zinc-900 text-zinc-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">About Us</a>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <a href="tel:1234567890" class="hidden sm:block font-bold text-blue-600 hover:text-blue-800 transition-colors duration-200">
+                        Call Now
+                    </a>
+                     <!-- Hamburger Button for Mobile -->
+                     <div class="block sm:hidden">
+                        <button id="nav-button" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-none">
+                            <span class="absolute -inset-0.5"></span>
+                            <span class="sr-only">Open main menu</span>
+                            <!-- Icon when menu is closed.  -->
+                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                            <!-- Icon when menu is open. -->
+                            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="overflow-hidden origin-top duration-300 h-0 sm:hidden" id="mobile-menu">
+        <div class="bg-white px-2 pt-2 pb-3 space-y-1">
+            <a href="home.html" class="text-gray-700 hover:bg-gray-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+            <a href="residential.html" class="text-gray-700 hover:bg-gray-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Residential</a>
+            <a href="commercial.html" class="text-gray-700 hover:bg-gray-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Commercial</a>
+            <a href="automotive.html" class="text-gray-700 hover:bg-gray-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Automotive</a>
+            <a href="emergency.html" class="text-gray-700 hover:bg-gray-50 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Emergency</a>
+            <a href="about.html" class="bg-zinc-50 text-gray-900 block px-3 py-2 rounded-md text-base font-medium" aria-current="page">About Us</a>
+        </div>
+    </div>
+
+    <main class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-2xl font-semibold text-gray-900">Who We Are</h2>
+                <p class="mt-4 text-gray-600">
+                    AllLocks Locksmith is a trusted provider of locksmith services in the LaSalle area. With years of experience in the industry, we pride ourselves on delivering fast, reliable, and professional services to our valued customers. Whether you are locked out of your home, need a new set of keys, or require advanced security solutions, our team is here to help.
+                </p>
+                
+                <h2 class="mt-8 text-2xl font-semibold text-gray-900">Our Mission</h2>
+                <p class="mt-4 text-gray-600">
+                    Our mission is to provide top-quality locksmith services that ensure the safety and security of our clients. We are committed to using the latest technologies and techniques to deliver the best possible service. Customer satisfaction is at the heart of everything we do, and we strive to exceed expectations with every job.
+                </p>
+
+                <h2 class="mt-8 text-2xl font-semibold text-gray-900">Our Values</h2>
+                <ul class="mt-4 list-disc list-inside text-gray-600">
+                    <li>Integrity: We conduct our business with the highest level of honesty and ethical standards.</li>
+                    <li>Customer Service: We prioritize our customers and aim to provide exceptional service at all times.</li>
+                    <li>Quality: We use high-quality products and employ skilled technicians to ensure superior results.</li>
+                    <li>Innovation: We stay updated with the latest industry trends and technologies to offer cutting-edge solutions.</li>
+                    <li>Reliability: We are available 24/7 to assist our clients in emergency situations.</li>
+                </ul>
+
+                <h2 class="mt-8 text-2xl font-semibold text-gray-900">Meet Our Team</h2>
+                <p class="mt-4 text-gray-600">
+                    Our team consists of highly trained and experienced locksmiths who are passionate about what they do. Each member of our team is dedicated to providing excellent service and ensuring the security of our clients.
+                </p>
+                
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="text-lg font-medium text-gray-900">John Doe</h3>
+                        <p class="mt-2 text-gray-600">Lead Locksmith with over 10 years of experience.</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="text-lg font-medium text-gray-900">Jane Smith</h3>
+                        <p class="mt-2 text-gray-600">Security Specialist and expert in advanced lock systems.</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="text-lg font-medium text-gray-900">Robert Johnson</h3>
+                        <p class="mt-2 text-gray-600">Customer Service Manager ensuring excellent client relations.</p>
+                    </div>
+                </div>
+                
+                <h2 class="mt-8 text-2xl font-semibold text-gray-900">Contact Us</h2>
+                <p class="mt-4 text-gray-600">
+                    If you have any questions or need our services, don't hesitate to contact us. We are here to help!
+                </p>
+                <p class="mt-4 text-gray-600">
+                    <strong>Phone:</strong> (123) 456-7890<br>
+                    <strong>Email:</strong> info@lasallelocksmith.com
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-white text-sm">© 2024 AllLocks Locksmith. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

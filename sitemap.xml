@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://alllocks-locksmith.netlify.app/</loc>
+    <lastmod>2024-05-18</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Residential Services Page -->
+  <url>
+    <loc>https://alllocks-locksmith.netlify.app/residential.html</loc>
+    <lastmod>2024-05-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Commercial Services Page -->
+  <url>
+    <loc>https://alllocks-locksmith.netlify.app/commercial.html</loc>
+    <lastmod>2024-05-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Automotive Services Page -->
+  <url>
+    <loc>https://alllocks-locksmith.netlify.app/automotive.html</loc>
+    <lastmod>2024-05-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Emergency Services Page -->
+  <url>
+    <loc>https://alllocks-locksmith.netlify.app/emergency.html</loc>
+    <lastmod>2024-05-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- About Us Page -->
+  <url>
+    <loc>https://alllocks-locksmith.netlify.app/about.html</loc>
+    <lastmod>2024-05-18</lastmod>
+    <priority>0.60</priority>
+  </url>
+</urlset>

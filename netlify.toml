@@ -1,0 +1,9 @@
+[build]
+  publish = "/" # Your publish directory
+  command = "npm run build"
+
+[[plugins]]
+  package = "./plugins/update-sitemap"
+
+[build.environment]
+  NODE_VERSION = "14"

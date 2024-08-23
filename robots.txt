@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /plugins/
+Disallow: /public/assets/
+Allow: /
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://alllocks-locksmith.netlify.app/sitemap.xmls
